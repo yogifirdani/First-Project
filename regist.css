@@ -1,0 +1,145 @@
+  body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+  nav{
+    background-color: #FEC511;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-bottom: 0px;
+  }
+  .login{
+    color: #5B5B5B;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  button{
+    background-color: #5B5B5B;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 14px;
+    border-radius: 5px;
+    color: white;
+  }
+  a {
+    color: #5B5B5B;
+    text-decoration: none;
+    text-align: center;
+  }
+  .logo {
+    padding-left: 20px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  .container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 70px;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: #5B5B5B;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .container h1{
+    text-align: left;
+    color: #FEC511;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 2px;
+  }
+  .container h2 {
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 4px;
+    padding: 2px;
+  }
+  .container label{
+    text-align: left;
+    color: #90caf9;
+  }
+  .container form input{
+    padding: 8px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 10px;
+    border: none;
+  }
+  .container form button{
+    border: none;
+    width: 96%;
+    background-color: #FEC511;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: #5B5B5B;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .input2 {
+    width: 92%;
+    padding: 8px;
+    margin: 2px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 10px;
+    border: none;
+  }
+  .dob {
+    width: 41%;
+    padding: 8px;
+    margin: 2px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 10px;
+    border: none;
+  }
+  .titleform {
+    font-size: 12px;
+    font-weight: 600;
+    color: #FEC511;
+    margin-left: 4px;
+  }
+  select {
+    width: 48%;
+    padding: 8px;
+    margin: 2px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 10px;
+    border: none;
+  }
+  .signin {
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .link {
+    color: #FFFFFF;
+  }

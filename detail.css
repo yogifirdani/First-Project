@@ -1,0 +1,107 @@
+body{
+background-color: #ECECEC;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+}
+nav {
+  height: auto;
+  width: 100%;
+  background: #FEC511;
+  justify-content: space-between;
+}
+
+.container{
+  color: #5B5B5B;
+  padding-left: 3%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #eeee;
+}
+.container {
+  height: 800px;
+  width: 92%;
+  margin: 4%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 13px;
+} 
+h1{
+  padding: 8px;
+  margin-top: 2%;
+}
+
+.Group17{
+  /* height: 577px;
+  width: 92%; */
+  margin: 4%;
+}
+.container2{
+  height: 340px;
+  width: 35%;
+  padding: 20px;
+  margin-right: 5%;
+  background-color: #ECECEC;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px;
+  float: right;
+ 
+}
+.deskripsi {
+  padding: 2px;
+  color: #5B5B5B;
+}
+.deskripsi p{
+  font-size: 20px;
+}
+.ul{
+  font-size: 1.2em;
+}
+.ten{
+  color: #5B5B5B;
+}
+.harga{
+  padding-left: 4%;
+  color: #FF8A00;
+}
+button{
+  margin-top: 3%;
+  margin-right: 5%;
+  width: 15%;
+  height: 10%;
+  border-radius: 10px;
+  
+}
+.buttonn h2{
+  font-size: 20px;
+}
+.buttonn h2 a {
+  padding: 1%;
+  color: #5B5B5B;
+}

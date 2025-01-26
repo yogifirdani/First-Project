@@ -1,0 +1,174 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  background-color: #fec511;
+  display: flex;  /* tata letak flexbox, elemen-elemen di dalam <nav> dapat diatur dalam satu baris dan posisinya ke kanan atas */
+  align-items: center; /* mengatur penempatan elemen2 secara vertikal*/
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.login {
+  display: flex; 
+  gap: 20px; /* jarak antara elemen-elemen dalam kontainer. Properti ini memudahkan dalam mengatur jarak secara konsisten tanpa perlu menggunakan margin atau padding pada setiap elemen. */
+  align-items: center;
+  padding: 30px;
+}
+
+.login a {
+  text-decoration: none; /* menghilangkan garis */
+}
+
+/*.login a:hover {
+  text-decoration: underline; /* menambahkan garis login pada saat cursor di arahkanya 
+}*/ 
+
+button {
+  background-color: #5b5b5b;
+  border: none; /* digunakan untuk menghilangkan atau menghapus garis batas (border) pada elemen.*/
+  padding: 14px;
+  border-radius: 5px;
+  color: white;
+}
+ul h1 {
+  color: #fec511;
+  font-size: 60px;
+  margin-top: 5%; /* jarak sisi atas */
+  padding-left: 60px; /* mengatur ruang di sebelah kiri konten elemen */
+}
+
+.slide2 ul {
+  color: #ffffff;
+  list-style-type: none; /* untuk menghilangkan tanda bulet atau angka*/
+  text-decoration: none;
+}
+.slide2 li {
+  float: left;
+  flex: auto; /* diterapkan pada elemen dengan kelas "box". Elemen tersebut akan mengambil ruang yang tersedia secara proporsional dengan elemen-elemen lain dalam wadah flexbox. */
+  
+}
+.deskripsi ul {
+  color: #ffffff;
+  list-style-type: none; /* untuk menghilangkan tanda bulet atau angka*/
+  text-decoration: none; /* digunakan untuk menghilangkan dekorasi teks pada elemen. Dekorasi teks meliputi garis bawah, garis tengah, garis atas, dan variasi dekoratif lainnya. */
+  font-size: 30px; 
+  padding-top: 60px;
+}
+.deskripsi li {
+  float: left; /* untuk menggeser elemen ke sisi kiri dan mengizinkan elemen lain untuk mengisi ruang di sebelah kanan elemen tersebut */
+  flex: auto;
+  padding-left: 50px;
+}
+
+.slide2 h5 {
+  font-weight: 210; /* mengatur ketebalan */
+  font-size: 23px;
+  padding-right: 70px; 
+  margin-bottom: 20px; /* untuk mengatur jarak pada sisi bawah (bottom) dari suatu elemen */
+  margin-top: 58px; /* jarak sisi atas */
+
+}
+.pilihan button {
+  width: 18%;
+  background-color: #fec511;
+  color: #5b5b5b;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+.pilihan .see {
+  margin-left: 3%;
+}
+.deskripsi {
+  color: #ffffff;
+  font-size: 23px;
+  padding-top: 110px;
+  margin-top: 180px;
+  left: 20px;
+  padding-left: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.image {
+  float: right; /* untuk menggeser elemen ke sisi */
+  margin: 150px; /* untuk mengatur jarak antara elemen */
+  margin-top: -100px; 
+
+}
+
+.kolom1 {
+  margin-left: 3%; /* untuk mengatur jarak antara elemen dengan elemen lain */
+  margin-top: 18%;
+}
+
+.col-md-3 {
+  margin: 7px;
+  margin-left: 15px;
+  height: 10%;
+  width: 10%;
+  background-color: #fec511;
+  border-radius: 7px;
+  text-align: center;
+  display: inline-block; 
+}
+.box {
+  margin: 2px;
+  padding: 10px;
+}
+.box h3 {
+  overflow: hidden;
+  height: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+.slide3 {
+  background-color: #fec511;
+  padding: 60px 200px ;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pilihan a {
+  text-decoration: none;
+  color: #5b5b5b;
+}
+
+.button .registrasi   {
+  position: absolute;
+  margin-top: -25px;
+  width: 185px;
+  height: 45px;
+  left: 980px;
+  background: #5B5B5B;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  color: #fec511;
+}
+
+.button .pelajari{
+  width: 185px;
+  height: 45px;
+  position: absolute;
+  margin-top: -25px;
+  background-color: #fec511;
+  left: 1200px;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  color: #5B5B5B;
+  border:#5B5B5B;
+  border-style: solid;
+}
